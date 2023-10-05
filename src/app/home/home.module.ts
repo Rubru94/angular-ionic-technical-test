@@ -7,9 +7,10 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
 import { DropdownComponent } from '../dropdown/dropdown.component';
+import { DropdownContainerComponent } from '../dropdown-container/dropdown-container.component';
 
 @NgModule({
   imports: [IonicModule, CommonModule, FormsModule, HomePageRoutingModule],
-  declarations: [HomePage, DropdownComponent],
+  declarations: [HomePage, DropdownContainerComponent, DropdownComponent],
 })
 export class HomePageModule {}

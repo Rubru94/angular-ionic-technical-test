@@ -1,1 +1,32 @@
+@import "../../theme/const.scss";
 
+ion-content {
+  display: grid;
+  place-items: center;
+  .laptop-image {
+    z-index: -1;
+    width: 90%;
+    height: 90%;
+    background-image: url("../../assets/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    background-position: top right;
+
+    @media (max-width: $res-size-m) {
+      height: 60%;
+      background-position: top center;
+      position: relative;
+      right: auto;
+    }
+  }
+
+  .dropdown-container {
+    position: absolute;
+    width: 50%;
+    top: 50vh;
+    left: 40vh;
+  }
+}

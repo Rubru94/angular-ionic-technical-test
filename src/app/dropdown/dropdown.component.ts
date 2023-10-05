@@ -7,8 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DropdownComponent  implements OnInit {
 
+  selectedOption: string = 'Option 1';
+  options: any[] = [
+    { value: 'Option 1', label: 'Option 1' },
+    { value: 'Option 2', label: 'Option 2' },
+    { value: 'Option 3', label: 'Option 3' },
+  ];
+
   constructor() { }
 
   ngOnInit() {}
 
+  onFocus() {
+    // Handle focus styling here
+  }
 }
