@@ -1,4 +1,10 @@
 # angular-ionic-technical-test
+
+## Run
+
+```
+ionic serve
+```
  
 
 ## Bibliography 
