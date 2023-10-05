@@ -6,7 +6,14 @@ ion-content {
   --ion-background-color: #f3f3f3;
 }
 
+@font-face {
+  font-family: AppFont;
+  src: url("../assets/font/ABBvoice_Rg.ttf");
+}
+
 :root {
+  --ion-font-family: "AppFont";
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
